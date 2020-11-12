@@ -1,7 +1,7 @@
 Feature: BMI Calcualtor feature
   I want to calculate BMI for below users
 
-  @Sanity
+  @Regression
   Scenario: BMI Page
     Given Open BMICalculator Page
     When Get Page Title

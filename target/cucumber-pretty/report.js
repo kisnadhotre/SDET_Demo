@@ -6,6 +6,74 @@ formatter.feature({
   "id": "bmi-calcualtor-feature",
   "keyword": "Feature"
 });
+formatter.scenario({
+  "line": 5,
+  "name": "BMI Page",
+  "description": "",
+  "id": "bmi-calcualtor-feature;bmi-page",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 4,
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "Open BMICalculator Page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "Get Page Title",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "Verify Page Title \"Calculator.net: Free Online Calculators - Math, Fitness, Finance, Science\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "Close Browser",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "calculatorDefinition.given()"
+});
+formatter.result({
+  "duration": 11825263000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "calculatorDefinition.when()"
+});
+formatter.result({
+  "duration": 18511000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Calculator.net: Free Online Calculators - Math, Fitness, Finance, Science",
+      "offset": 19
+    }
+  ],
+  "location": "calculatorDefinition.then(String)"
+});
+formatter.result({
+  "duration": 23160200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "calculatorDefinition.and()"
+});
+formatter.result({
+  "duration": 373888100,
+  "status": "passed"
+});
 formatter.scenarioOutline({
   "line": 12,
   "name": "BMI Calculator",
@@ -186,21 +254,21 @@ formatter.match({
   "location": "calculatorDefinition.given()"
 });
 formatter.result({
-  "duration": 11929117700,
+  "duration": 9788440700,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.bmiCalculatorLink()"
 });
 formatter.result({
-  "duration": 2947885300,
+  "duration": 1882984300,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.when()"
 });
 formatter.result({
-  "duration": 15593000,
+  "duration": 8828000,
   "status": "passed"
 });
 formatter.match({
@@ -213,7 +281,7 @@ formatter.match({
   "location": "calculatorDefinition.then(String)"
 });
 formatter.result({
-  "duration": 6162400,
+  "duration": 117700,
   "status": "passed"
 });
 formatter.match({
@@ -234,28 +302,28 @@ formatter.match({
   "location": "calculatorDefinition.user_enters_and_and(String,String,String)"
 });
 formatter.result({
-  "duration": 480437000,
+  "duration": 795840000,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.click_on_CalculateButton()"
 });
 formatter.result({
-  "duration": 724072000,
+  "duration": 1426177000,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.print_bmiValue()"
 });
 formatter.result({
-  "duration": 74042300,
+  "duration": 63849400,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.and()"
 });
 formatter.result({
-  "duration": 280917400,
+  "duration": 478139700,
   "status": "passed"
 });
 formatter.scenario({
@@ -321,21 +389,21 @@ formatter.match({
   "location": "calculatorDefinition.given()"
 });
 formatter.result({
-  "duration": 8430630400,
+  "duration": 8168285400,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.bmiCalculatorLink()"
 });
 formatter.result({
-  "duration": 1781727300,
+  "duration": 1615368300,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.when()"
 });
 formatter.result({
-  "duration": 25628800,
+  "duration": 6203300,
   "status": "passed"
 });
 formatter.match({
@@ -348,7 +416,7 @@ formatter.match({
   "location": "calculatorDefinition.then(String)"
 });
 formatter.result({
-  "duration": 108200,
+  "duration": 68100,
   "status": "passed"
 });
 formatter.match({
@@ -369,28 +437,28 @@ formatter.match({
   "location": "calculatorDefinition.user_enters_and_and(String,String,String)"
 });
 formatter.result({
-  "duration": 817083500,
+  "duration": 484504500,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.click_on_CalculateButton()"
 });
 formatter.result({
-  "duration": 4080524900,
+  "duration": 874677800,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.print_bmiValue()"
 });
 formatter.result({
-  "duration": 52802300,
+  "duration": 69429100,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.and()"
 });
 formatter.result({
-  "duration": 4550599600,
+  "duration": 457113200,
   "status": "passed"
 });
 formatter.scenario({
@@ -456,21 +524,21 @@ formatter.match({
   "location": "calculatorDefinition.given()"
 });
 formatter.result({
-  "duration": 7980689700,
+  "duration": 6614509200,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.bmiCalculatorLink()"
 });
 formatter.result({
-  "duration": 1591948800,
+  "duration": 3869084100,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.when()"
 });
 formatter.result({
-  "duration": 20573300,
+  "duration": 112437100,
   "status": "passed"
 });
 formatter.match({
@@ -483,7 +551,7 @@ formatter.match({
   "location": "calculatorDefinition.then(String)"
 });
 formatter.result({
-  "duration": 81400,
+  "duration": 93400,
   "status": "passed"
 });
 formatter.match({
@@ -504,28 +572,28 @@ formatter.match({
   "location": "calculatorDefinition.user_enters_and_and(String,String,String)"
 });
 formatter.result({
-  "duration": 632226200,
+  "duration": 639278300,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.click_on_CalculateButton()"
 });
 formatter.result({
-  "duration": 1206477800,
+  "duration": 1677932900,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.print_bmiValue()"
 });
 formatter.result({
-  "duration": 61585500,
+  "duration": 95765100,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.and()"
 });
 formatter.result({
-  "duration": 359359300,
+  "duration": 4224837700,
   "status": "passed"
 });
 formatter.scenario({
@@ -591,21 +659,21 @@ formatter.match({
   "location": "calculatorDefinition.given()"
 });
 formatter.result({
-  "duration": 8987290700,
+  "duration": 9549521700,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.bmiCalculatorLink()"
 });
 formatter.result({
-  "duration": 2132634100,
+  "duration": 6837104800,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.when()"
 });
 formatter.result({
-  "duration": 9946400,
+  "duration": 9582600,
   "status": "passed"
 });
 formatter.match({
@@ -618,7 +686,7 @@ formatter.match({
   "location": "calculatorDefinition.then(String)"
 });
 formatter.result({
-  "duration": 68900,
+  "duration": 85700,
   "status": "passed"
 });
 formatter.match({
@@ -639,28 +707,28 @@ formatter.match({
   "location": "calculatorDefinition.user_enters_and_and(String,String,String)"
 });
 formatter.result({
-  "duration": 715375400,
+  "duration": 440617400,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.click_on_CalculateButton()"
 });
 formatter.result({
-  "duration": 876712600,
+  "duration": 2677478600,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.print_bmiValue()"
 });
 formatter.result({
-  "duration": 48116200,
+  "duration": 46211600,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.and()"
 });
 formatter.result({
-  "duration": 393751500,
+  "duration": 427578100,
   "status": "passed"
 });
 formatter.scenario({
@@ -726,21 +794,21 @@ formatter.match({
   "location": "calculatorDefinition.given()"
 });
 formatter.result({
-  "duration": 8410313300,
+  "duration": 12917719300,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.bmiCalculatorLink()"
 });
 formatter.result({
-  "duration": 1829080300,
+  "duration": 8993825800,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.when()"
 });
 formatter.result({
-  "duration": 11466300,
+  "duration": 10305500,
   "status": "passed"
 });
 formatter.match({
@@ -753,7 +821,7 @@ formatter.match({
   "location": "calculatorDefinition.then(String)"
 });
 formatter.result({
-  "duration": 104300,
+  "duration": 170700,
   "status": "passed"
 });
 formatter.match({
@@ -774,28 +842,28 @@ formatter.match({
   "location": "calculatorDefinition.user_enters_and_and(String,String,String)"
 });
 formatter.result({
-  "duration": 481106000,
+  "duration": 455662200,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.click_on_CalculateButton()"
 });
 formatter.result({
-  "duration": 909925800,
+  "duration": 1615343300,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.print_bmiValue()"
 });
 formatter.result({
-  "duration": 50073600,
+  "duration": 52878400,
   "status": "passed"
 });
 formatter.match({
   "location": "calculatorDefinition.and()"
 });
 formatter.result({
-  "duration": 255839500,
+  "duration": 413767700,
   "status": "passed"
 });
 });
